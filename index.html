@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image to Painting Converter</title>
+  <style>
+    body { text-align: center; font-family: Arial, sans-serif; padding: 20px; }
+    input, button { margin: 10px; padding: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Convert Your Image into a Painting</h1>
+  <form id="uploadForm">
+    <input type="file" id="imageInput" accept="image/*">
+    <button type="button" id="uploadButton">Convert</button>
+  </form>
+  <div id="output">
+    <h2>Result:</h2>
+    <img id="convertedImage" src="" alt="Converted Painting" style="max-width: 80%;">
+  </div>
+</body>
+</html>
